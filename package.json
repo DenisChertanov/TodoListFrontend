@@ -1,0 +1,19 @@
+{
+  "name": "todolistfrontend",
+  "version": "1.0.0",
+  "description": "Fronted for TodoList",
+  "main": "server/server.js",
+  "scripts": {
+    "start" : "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenisChertanov/TodoListFrontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenisChertanov/TodoListFrontend/issues"
+  },
+  "homepage": "https://github.com/DenisChertanov/TodoListFrontend#readme"
+}
