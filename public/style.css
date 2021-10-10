@@ -46,6 +46,9 @@ input[type=password] {
     border-radius: 5px;
     border: 0;
     outline: none;
+    color: white;
+    font-family: Roboto, serif;
+    font-size: 14px;
 }
 
 .login_text {
