@@ -1,0 +1,65 @@
+body {
+    background-color: #2E3437;
+    margin: 0 0 0 0;
+    margin-right: 10px;
+}
+
+.far.fa-user {
+    color: #EDEDEE;
+    margin-right: 5px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.far.fa-plus-square {
+    color: #AFB1B3;
+    /* margin: -20% 0 0 0; */
+    /* padding: 0 0 0 0; */
+    font-size: 20px;
+}
+
+.leftBlock {
+    background-color: #363C3F;
+    max-width: 250px;
+    height: 100vh;
+}
+
+.leftBlockContainer {
+    padding-left: 10px;
+    /* padding-top: 10px; */
+}
+
+.accountButton {
+    background-color: #363C3F;
+    border: 0;
+    outline: none;
+    color: #EDEDEE;
+    font-family: Roboto, serif;
+    font-size: 14px;
+    width: 100%;
+    max-width: 240px;
+    height: 40px;
+    text-align: left;
+}
+
+.dashboardButton {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;  
+    padding-top: 0px;
+    background-color: #363C3F;
+    border: 0;
+    outline: none;
+    position: relative;
+    left: 50%;
+}
+
+.dashboardTitle {
+    color: #AFB1B3;
+    font-family: Roboto, serif;
+    font-size: 12px;
+}
+
+.dashboards {
+    width: 100%;
+    margin-top: 30px;
+}
