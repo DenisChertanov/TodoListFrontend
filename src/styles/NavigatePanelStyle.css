@@ -1,0 +1,13 @@
+.far.fa-user {
+    color: #EDEDEE;
+    margin-right: 10px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.navigatePanel {
+    padding-left: 10px;
+    background-color: #363C3F;
+    max-width: 250px;
+    height: 100vh;
+}
