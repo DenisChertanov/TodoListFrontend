@@ -1,0 +1,15 @@
+.defaultInput {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 20px;
+    display: inline-block;
+    max-height: 42px;
+    box-sizing: border-box;
+    background-color: #24282A;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    color: white;
+    font-family: Roboto, serif;
+    font-size: 14px;
+}

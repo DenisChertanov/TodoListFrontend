@@ -1,0 +1,15 @@
+i {
+  margin-right: 5px;
+  font-size: 15px;
+  color: white;
+  background-color: inherit;
+}
+
+.login_icon {
+  width: 210px;
+  height: 210px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 46px;
+}

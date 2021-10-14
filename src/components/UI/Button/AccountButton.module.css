@@ -1,0 +1,12 @@
+.accountButton {
+    background-color: #363C3F;
+    border: 0;
+    outline: none;
+    color: #EDEDEE;
+    font-family: Roboto, serif;
+    font-size: 14px;
+    width: 100%;
+    max-width: 240px;
+    height: 40px;
+    text-align: left;
+}
