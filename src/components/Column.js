@@ -3,11 +3,11 @@ import ColumnStatus from "./ColumnStatus";
 import TasksList from "./TasksList";
 import LeftAddInput from "./LeftAddInput";
 
-const Column = () => {
+const Column = ({tasks, ...props}) => {
     return (
         <div>
             <ColumnStatus/>
-            <TasksList/>
+            <TasksList tasks={tasks} create={props.create} remove={props.remove}/>
         </div>
     );
 };

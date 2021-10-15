@@ -2,11 +2,11 @@ import React from 'react';
 import DefaultLabel from "./UI/Label/DefaultLabel";
 import '../styles/DashboardViewTitleStyle.css';
 
-const DashboardViewTitle = () => {
+const DashboardViewTitle = (props) => {
     return (
         <div>
             <DefaultLabel style={{color: "white", fontSize: "26px"}}>
-                University
+                {props.dashboard.title}
             </DefaultLabel>
             <hr className="dashboardViewHR" color="#4D5153"/>
         </div>

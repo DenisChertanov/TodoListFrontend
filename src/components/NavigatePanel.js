@@ -3,14 +3,14 @@ import DashboardsList from "./DashboardsList";
 import '../styles/NavigatePanelStyle.css';
 import AccountButton from "./UI/Button/AccountButton";
 
-const NavigatePanel = () => {
+const NavigatePanel = (props) => {
     return (
         <div class="navigatePanel">
             <AccountButton type="button">
                 <i class="far fa-user"/>
                 Chertanov Denis
             </AccountButton>
-            <DashboardsList/>
+            <DashboardsList dashboards={props.dashboards} create={props.create} remove={props.remove} set={props.set}/>
         </div>
     );
 };
