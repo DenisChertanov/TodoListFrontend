@@ -1,0 +1,10 @@
+.dashboardItem {
+    height: 30px;
+    width: 100%;
+    padding-left: 15px;
+    background-color: #363C3F;
+}
+
+.right_arrow_triangle {
+    margin-right: 10px;
+}

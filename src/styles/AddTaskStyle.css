@@ -1,0 +1,12 @@
+.addTask {
+    height: 40px;
+    width: 250px;
+    background-color: #32383B;
+    margin-top: 12px;
+    border-radius: 5px;
+    position: relative;
+    padding-right: 10px;
+    max-width: 250px;
+    left: 50%;
+    transform: translate(-50%);
+}

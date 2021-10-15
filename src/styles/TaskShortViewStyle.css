@@ -1,0 +1,17 @@
+.taskShortView {
+    height: 40px;
+    width: 250px;
+    background-color: #3E4447;
+    margin-top: 12px;
+    border-radius: 5px;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 250px;
+    left: 50%;
+    transform: translate(-50%);
+
+    /*display: ;*/
+    /*white-space: ;*/
+    /*text-overflow: ;*/
+}

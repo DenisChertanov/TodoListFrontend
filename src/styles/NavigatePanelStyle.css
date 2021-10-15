@@ -8,6 +8,8 @@
 .navigatePanel {
     padding-left: 10px;
     background-color: #363C3F;
-    max-width: 250px;
+    width: 250px;
     height: 100vh;
+    display: inline-block;
+    vertical-align: top;
 }

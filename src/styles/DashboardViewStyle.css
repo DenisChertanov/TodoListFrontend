@@ -1,0 +1,10 @@
+.dashboardView {
+    display: inline-block;
+    padding-left: 80px;
+    padding-right: 30px;
+    padding-top: 60px;
+    max-width: 2000px;
+    width: 1600px;
+    height: 100vh;
+    vertical-align: top;
+}

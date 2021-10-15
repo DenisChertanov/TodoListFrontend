@@ -1,0 +1,9 @@
+.verticalCenteredLabel {
+    background-color: #3E4447;
+    color: white;
+    font-size: 14px;
+    font-family: Roboto, serif;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
