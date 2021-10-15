@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import TaskShortView from "./TaskShortView";
+import LeftAddInput from "./LeftAddInput";
 
 const TasksList = () => {
     const [tasks, setTasks] = useState([
@@ -9,11 +10,20 @@ const TasksList = () => {
         {id: 4, title: 'Task #4'}
     ])
 
+    function addTask(title) {
+        setTasks([...tasks, {id: tasks.length + 1, title: title}]);
+    }
+
+    function removeTask(task) {
+        setTasks(tasks.filter(t => t.id !== task.id));
+    }
+
     return (
         <div>
             {tasks.map((task) =>
-                <TaskShortView task={task} key={task.id}/>
+                <TaskShortView remove={removeTask} task={task} key={task.id}/>
             )}
+            <LeftAddInput create={addTask}/>
         </div>
     );
 };

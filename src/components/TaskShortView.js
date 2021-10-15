@@ -20,7 +20,7 @@ const TaskShortView = (props) => {
                 left: "100%",
                 top: "50%",
                 transform: "translate(-100%, -50%)"
-            }}>
+            }} onClick={() => props.remove(props.task)}>
                 <i className="fas fa-trash-alt" style={{color: "#E62F4B"}}/>
             </ImgButton>
         </div>

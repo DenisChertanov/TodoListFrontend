@@ -10,7 +10,6 @@ const NavigatePanel = () => {
                 <i class="far fa-user"/>
                 Chertanov Denis
             </AccountButton>
-
             <DashboardsList/>
         </div>
     );

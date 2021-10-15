@@ -1,18 +1,20 @@
-import React from 'react';
-import '../styles/AddTaskStyle.css';
+import React, {useState} from 'react';
+import '../styles/LeftAddInputStyle.css';
 import ImgButton from "./UI/Button/ImgButton";
 import DefaultInput from "./UI/Input/DefaultInput";
 
-const AddTask = () => {
+const LeftAddInput = (props) => {
+    const [newTaskTitle, setNewTaskTitle] = useState(['']);
+
     return (
-        <div className="addTask">
+        <div className="leftAddInput">
             <DefaultInput style={{
                 backgroundColor: "#32383B",
                 height: "40px",
                 width: "200px",
                 marginTop: "0px",
                 marginRight: "0px"
-            }}/>
+            }} onChange={(event) => setNewTaskTitle(event.target.value)}/>
             <ImgButton type="button" style={{
                 backgroundColor: "#32383B",
                 position: "absolute",
@@ -20,11 +22,11 @@ const AddTask = () => {
                 top: "50%",
                 transform: "translate(-100%, -50%)",
                 paddingRight: "10px"
-            }}>
+            }} onClick={() => props.create(newTaskTitle)}>
                 <i className="fas fa-plus" style={{color: "#AFB1B3"}}/>
             </ImgButton>
         </div>
     );
 };
 
-export default AddTask;
+export default LeftAddInput;

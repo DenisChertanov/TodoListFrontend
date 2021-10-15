@@ -10,6 +10,6 @@
     background-color: #363C3F;
     width: 250px;
     height: 100vh;
-    display: inline-block;
-    vertical-align: top;
+    float: left;
+    padding-right: 15px;
 }

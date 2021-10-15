@@ -3,7 +3,7 @@ import DefaultLabel from "./UI/Label/DefaultLabel";
 import ImgButton from "./UI/Button/ImgButton";
 import '../styles/DashboardTitleStyle.css';
 
-const DashboardTitle = () => {
+const DashboardTitle = (props) => {
     return (
         <div className="dashboardTitle">
             <DefaultLabel style={{color: "#AFB1B3", backgroundColor: "#363C3F", fontSize: "12px"}}>
