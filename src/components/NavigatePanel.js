@@ -8,7 +8,7 @@ const NavigatePanel = (props) => {
         <div class="navigatePanel">
             <AccountButton type="button">
                 <i class="far fa-user"/>
-                Chertanov Denis
+                {props.userInfo}
             </AccountButton>
             <DashboardsList dashboards={props.dashboards} create={props.create} remove={props.remove} set={props.set}/>
         </div>
