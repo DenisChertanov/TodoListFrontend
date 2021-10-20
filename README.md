@@ -1,2 +1,2 @@
 # TodoListFrontend
-Fronted for TodoList
+Test version of fronted for TodoList (education)
